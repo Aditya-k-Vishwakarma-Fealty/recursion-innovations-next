@@ -30,9 +30,9 @@ const steps = [
 
 export const Process = () => {
   return (
-    <section id="process" className="py-24 px-4 relative">
+    <section id="process" className="py-16 px-4 relative">
       <div className="container max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Our <span className="text-gradient">Process</span>
           </h2>

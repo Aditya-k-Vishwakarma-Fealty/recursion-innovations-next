@@ -25,9 +25,9 @@ const advantages = [
 
 export const WhyChooseUs = () => {
   return (
-    <section id="why-us" className="py-24 px-4 relative">
+    <section id="why-us" className="py-16 px-4 relative">
       <div className="container max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Why Choose <span className="text-gradient">RecursX</span>
           </h2>
@@ -53,7 +53,7 @@ export const WhyChooseUs = () => {
           ))}
         </div>
 
-        <div className="mt-16 bg-gradient-to-br from-primary/10 to-secondary/10 backdrop-blur-sm border border-primary/20 rounded-3xl p-12 text-center">
+        <div className="mt-12 bg-gradient-to-br from-primary/10 to-secondary/10 backdrop-blur-sm border border-primary/20 rounded-3xl p-12 text-center">
           <h3 className="text-3xl font-bold mb-4">
             Strong Engineering. Creative Solutions. <span className="text-gradient">AI Excellence.</span>
           </h3>

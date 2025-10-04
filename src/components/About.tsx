@@ -2,9 +2,9 @@ import { Brain, Target, Eye } from "lucide-react";
 
 export const About = () => {
   return (
-    <section id="about" className="py-24 px-4 relative">
+    <section id="about" className="py-16 px-4 relative">
       <div className="container max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Intelligence at the <span className="text-gradient">Core</span>
           </h2>
@@ -14,7 +14,7 @@ export const About = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mt-16">
+        <div className="grid md:grid-cols-3 gap-8 mt-12">
           <div className="bg-card/50 backdrop-blur-sm border border-border/50 rounded-2xl p-8 hover:border-primary/50 transition-all duration-300">
             <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-6">
               <Brain className="w-6 h-6 text-primary" />

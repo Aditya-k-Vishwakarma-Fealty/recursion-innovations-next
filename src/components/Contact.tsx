@@ -3,7 +3,7 @@ import { Mail, Globe, ArrowRight } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <section id="contact" className="py-24 px-4 relative">
+    <section id="contact" className="py-16 px-4 relative">
       <div className="container max-w-4xl mx-auto">
         <div className="bg-gradient-to-br from-card/80 to-card/40 backdrop-blur-sm border border-border/50 rounded-3xl p-12 md:p-16 text-center relative overflow-hidden">
           {/* Background glow */}

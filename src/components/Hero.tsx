@@ -1,13 +1,30 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
+import heroBg from "@/assets/hero-bg.jpg";
+import aiVisual from "@/assets/ai-visual.jpg";
 
 export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
+      {/* Background image */}
+      <div className="absolute inset-0 overflow-hidden">
+        <img 
+          src={heroBg} 
+          alt="AI Technology Background"
+          className="w-full h-full object-cover opacity-20"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/80 to-background" />
+      </div>
+
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }} />
+      </div>
+
+      {/* Floating AI visual */}
+      <div className="absolute right-10 top-1/4 hidden lg:block animate-float opacity-30">
+        <img src={aiVisual} alt="AI Network" className="w-64 h-64 object-contain rounded-2xl" />
       </div>
 
       <div className="container max-w-6xl mx-auto text-center relative z-10">
@@ -38,7 +55,7 @@ export const Hero = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20 animate-fade-in">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 animate-fade-in">
           {[
             { value: "50+", label: "Projects Delivered" },
             { value: "98%", label: "Client Satisfaction" },
